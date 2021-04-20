@@ -1,0 +1,15 @@
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\bin\Debug\netcoreapp3.1\チョコラン計算機(非公式).exe
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\bin\Debug\netcoreapp3.1\チョコラン計算機(非公式).deps.json
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\bin\Debug\netcoreapp3.1\チョコラン計算機(非公式).runtimeconfig.json
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\bin\Debug\netcoreapp3.1\チョコラン計算機(非公式).runtimeconfig.dev.json
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\bin\Debug\netcoreapp3.1\チョコラン計算機(非公式).dll
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\bin\Debug\netcoreapp3.1\チョコラン計算機(非公式).pdb
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).csprojAssemblyReference.cache
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機_非公式_.Form1.resources
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).csproj.GenerateResource.cache
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).AssemblyInfoInputs.cache
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).AssemblyInfo.cs
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).csproj.CoreCompileInputs.cache
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).dll
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).pdb
+C:\Users\iw261\source\repos\チョコラン計算機(非公式)\チョコラン計算機(非公式)\obj\Debug\netcoreapp3.1\チョコラン計算機(非公式).genruntimeconfig.cache
