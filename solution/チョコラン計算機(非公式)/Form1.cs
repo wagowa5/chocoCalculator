@@ -937,25 +937,6 @@ namespace チョコラン計算機_非公式_
         }
 
 
-        private void sealReset_Click(object sender, EventArgs e)
-        {
-            powStructure.kanUpStatus = 0;
-            powStructure.kanDownStatus = 0;
-            intStructure.kanUpStatus = 0;
-            intStructure.kanDownStatus = 0;
-            vitStructure.kanUpStatus = 0;
-            vitStructure.kanDownStatus = 0;
-            spdStructure.kanUpStatus = 0;
-            spdStructure.kanDownStatus = 0;
-            luckStructure.kanUpStatus = 0;
-            luckStructure.kanDownStatus = 0;
-            textBox2inputStatus();
-            calcStatus();
-            calcPureStatus();
-            displayStatus();
-        }
-
-
         private void allBita_Click(object sender, EventArgs e)
         {
             if (!allBitaCheck())
