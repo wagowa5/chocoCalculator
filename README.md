@@ -27,7 +27,7 @@
 
 
 # Author
-[わごん](https://twitter.com/wagowagonsha)
+[わごん](https://twitter.com/wa5wago)
 
 
 # Cite
