@@ -26,9 +26,5 @@
 バイダイン、ランパート等のスキルやマジアタークやヌシアターク等リキッド以外のバフは実装していません。
 
 
-# Author
-[わごん](https://twitter.com/wa5wago)
-
-
 # Cite
 [文字列計算](https://github.com/izmktr/SimpleCalc)
