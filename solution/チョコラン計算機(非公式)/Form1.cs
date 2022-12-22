@@ -1958,8 +1958,7 @@ namespace チョコラン計算機_非公式_
         {
             if (manekinName2.Text != null && manekinName2.Text != "")
             {
-                var filename = @"manekins/" + manekinName2.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
+                var filename = @"manekins/" + manekinName1.Text + ".txt";
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
@@ -1979,6 +1978,7 @@ namespace チョコラン計算機_非公式_
                 {
                     manekinCall(filename);
                 }
+
             }
         }
 
@@ -1987,7 +1987,6 @@ namespace チョコラン計算機_非公式_
             if (manekinName3.Text != null && manekinName3.Text != "")
             {
                 var filename = @"manekins/" + manekinName3.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
@@ -2015,7 +2014,6 @@ namespace チョコラン計算機_非公式_
             if (manekinName4.Text != null && manekinName4.Text != "")
             {
                 var filename = @"manekins/" + manekinName4.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
@@ -2043,7 +2041,6 @@ namespace チョコラン計算機_非公式_
             if (manekinName5.Text != null && manekinName5.Text != "")
             {
                 var filename = @"manekins/" + manekinName5.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
@@ -2076,7 +2073,6 @@ namespace チョコラン計算機_非公式_
             if (manekinName6.Text != null && manekinName6.Text != "")
             {
                 var filename = @"manekins/" + manekinName6.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
@@ -2104,7 +2100,6 @@ namespace チョコラン計算機_非公式_
             if (manekinName7.Text != null && manekinName7.Text != "")
             {
                 var filename = @"manekins/" + manekinName7.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
@@ -2132,7 +2127,6 @@ namespace チョコラン計算機_非公式_
             if (manekinName8.Text != null && manekinName8.Text != "")
             {
                 var filename = @"manekins/" + manekinName8.Text + ".txt";
-                var tempArray = File.ReadAllLines(filename);
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
