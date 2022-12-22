@@ -422,6 +422,23 @@ namespace チョコラン計算機_非公式_
             return checkRes;
         }
 
+        private void initEruStatus()
+        {
+            HPStructure.eruUp = 0;
+            SPStructure.eruUp = 0;
+
+            powStructure.eruUp = 0;
+            intStructure.eruUp = 0;
+            vitStructure.eruUp = 0;
+            spdStructure.eruUp = 0;
+            luckStructure.eruUp = 0;
+
+            atkStructure.eruUp = 0;
+            matStructure.eruUp = 0;
+            defStructure.eruUp = 0;
+            mdfStructure.eruUp = 0;
+        }
+
         private Boolean atarikiCheck()
         {
             String errorMessage = "未入力欄があります\n";
@@ -1412,6 +1429,9 @@ namespace チョコラン計算機_非公式_
             displayStatus();
         }
 
+        /**
+         * ブラッドスクレイパー
+         */
         private void bradScraper_Click(object sender, EventArgs e)
         {
             textBox2inputStatus();
@@ -1421,11 +1441,16 @@ namespace チョコラン計算機_非公式_
             displayStatus();
         }
 
+        /**
+         * 大天使の加護
+         */
         private void eruWing_Click(object sender, EventArgs e)
         {
-            if (!eruWingCheck() && !specialSkillCheck())
+            if (!eruWingCheck())
             {
                 int selectStatus;
+
+                initEruStatus();
 
                 textBox2inputStatus();
                 calcStatus();
@@ -1488,18 +1513,139 @@ namespace チョコラン計算機_非公式_
             }
         }
 
+        /**
+         * 邪神の呪詛
+         */
         private void fisCurse_Click(object sender, EventArgs e)
         {
-            if (!fisCurseCheck() && !specialSkillCheck())
+            if (!eruWingCheck())
             {
+                initEruStatus();
+
                 textBox2inputStatus();
                 calcStatus();
+                HPStructure.eruUp = 0;
+                SPStructure.eruUp = 0;
 
+                powStructure.eruUp = 0;
+                intStructure.eruUp = 0;
+                vitStructure.eruUp = 0;
+                spdStructure.eruUp = 0;
                 luckStructure.eruUp = (int)(luckStructure.totalStatus * 0.3);
                 if (luckStructure.eruUp == 0)
                 {
                     luckStructure.eruUp = 1;
                 }
+
+                atkStructure.eruUp = 0;
+                matStructure.eruUp = 0;
+                defStructure.eruUp = 0;
+                mdfStructure.eruUp = 0;
+
+                calcStatus();
+                calcPureStatus();
+                displayStatus();
+            }
+        }
+
+        /**
+         * 祝福の蒼盾
+         */
+        private void beneWing_Click(object sender, EventArgs e)
+        {
+            if (!eruWingCheck())
+            {
+                initEruStatus();
+
+                textBox2inputStatus();
+                calcStatus();
+                HPStructure.eruUp = 0;
+                SPStructure.eruUp = 0;
+
+                powStructure.eruUp = 0;
+                intStructure.eruUp = 0;
+                vitStructure.eruUp = (int)(vitStructure.totalStatus * 0.3);
+                if (vitStructure.eruUp == 0)
+                {
+                    vitStructure.eruUp = 1;
+                }
+                spdStructure.eruUp = 0;
+                luckStructure.eruUp = 0;
+
+                atkStructure.eruUp = 0;
+                matStructure.eruUp = 0;
+                defStructure.eruUp = (int)((defStructure.inputStatus + defStructure.makiStatus + (vitStructure.totalStatus - vitStructure.inputStatus + vitStructure.eruUp) * 2) * 0.3);
+                mdfStructure.eruUp = 0;
+
+                calcStatus();
+                calcPureStatus();
+                displayStatus();
+            }
+        }
+
+        /**
+         * 妖精王の祝福(物理)
+         */
+        private void fairyPhy_Click(object sender, EventArgs e)
+        {
+            if (!eruWingCheck())
+            {
+                initEruStatus();
+
+                textBox2inputStatus();
+                calcStatus();
+                HPStructure.eruUp = 0;
+                SPStructure.eruUp = 0;
+
+                powStructure.eruUp = (int)(powStructure.totalStatus * 0.3);
+                if (powStructure.eruUp == 0)
+                {
+                    powStructure.eruUp = 1;
+                }
+                intStructure.eruUp = 0;
+                vitStructure.eruUp = 0;
+                spdStructure.eruUp = 0;
+                luckStructure.eruUp =0;
+
+                atkStructure.eruUp = (int)((atkStructure.inputStatus - powStructure.inputStatus + atkStructure.makiStatus + (powStructure.totalStatus - powStructure.inputStatus + powStructure.eruUp) * 2) * 0.3);
+                matStructure.eruUp = 0;
+                defStructure.eruUp = 0;
+                mdfStructure.eruUp = 0;
+
+                calcStatus();
+                calcPureStatus();
+                displayStatus();
+            }
+        }
+
+        /**
+         * 妖精王の祝福(魔法)
+         */
+        private void fairyMag_Click(object sender, EventArgs e)
+        {
+            if (!eruWingCheck())
+            {
+                initEruStatus();
+
+                textBox2inputStatus();
+                calcStatus();
+                HPStructure.eruUp = 0;
+                SPStructure.eruUp = 0;
+
+                powStructure.eruUp = 0;
+                intStructure.eruUp = (int)(intStructure.totalStatus * 0.3);
+                if (intStructure.eruUp == 0)
+                {
+                    intStructure.eruUp = 1;
+                }
+                vitStructure.eruUp = 0;
+                spdStructure.eruUp = 0;
+                luckStructure.eruUp = 0;
+
+                atkStructure.eruUp = 0;
+                matStructure.eruUp = (int)((matStructure.inputStatus + matStructure.makiStatus + (intStructure.totalStatus - intStructure.inputStatus + intStructure.eruUp) * 2) * 0.3);
+                defStructure.eruUp = 0;
+                mdfStructure.eruUp = 0;
 
                 calcStatus();
                 calcPureStatus();

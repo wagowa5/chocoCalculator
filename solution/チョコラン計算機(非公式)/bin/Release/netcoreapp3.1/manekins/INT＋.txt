@@ -1,8 +1,8 @@
-level:97
+level:99
 HP:10000
 SP:10000
 charaPow:1
-charaInt:150
+charaInt:1
 charaSpd:1
 charaVit:1
 charaLuck:1
@@ -12,11 +12,11 @@ cardSpd:0
 cardVit:0
 cardLuck:0
 totalPow:1
-totalInt:239+510
+totalInt:1
 totalSpd:1
 totalVit:1
 totalLuck:1
 inputAtk:3
 inputDef:2
-inputMat:3596
+inputMat:2
 inputMdf:15

@@ -104,6 +104,9 @@ namespace チョコラン計算機_非公式_
             this.makiReset = new System.Windows.Forms.Button();
             this.mahomamo = new System.Windows.Forms.Button();
             this.skillGroup = new System.Windows.Forms.GroupBox();
+            this.beneWing = new System.Windows.Forms.Button();
+            this.fairyMag = new System.Windows.Forms.Button();
+            this.fairyPhy = new System.Windows.Forms.Button();
             this.scraperReset = new System.Windows.Forms.Button();
             this.specialSkillReset = new System.Windows.Forms.Button();
             this.fisCurse = new System.Windows.Forms.Button();
@@ -181,184 +184,205 @@ namespace チョコラン計算機_非公式_
             // 
             // levelInputText
             // 
-            this.levelInputText.Location = new System.Drawing.Point(92, 28);
+            this.levelInputText.Location = new System.Drawing.Point(80, 21);
+            this.levelInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.levelInputText.Name = "levelInputText";
-            this.levelInputText.Size = new System.Drawing.Size(66, 27);
+            this.levelInputText.Size = new System.Drawing.Size(58, 23);
             this.levelInputText.TabIndex = 1;
             this.levelInputText.Text = "99";
             // 
             // powCharaText
             // 
-            this.powCharaText.Location = new System.Drawing.Point(85, 91);
+            this.powCharaText.Location = new System.Drawing.Point(74, 68);
+            this.powCharaText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.powCharaText.Name = "powCharaText";
             this.powCharaText.PlaceholderText = "157";
-            this.powCharaText.Size = new System.Drawing.Size(54, 27);
+            this.powCharaText.Size = new System.Drawing.Size(48, 23);
             this.powCharaText.TabIndex = 2;
             this.powCharaText.Text = "1";
             // 
             // intCharaText
             // 
-            this.intCharaText.Location = new System.Drawing.Point(85, 124);
+            this.intCharaText.Location = new System.Drawing.Point(74, 93);
+            this.intCharaText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intCharaText.Name = "intCharaText";
             this.intCharaText.PlaceholderText = "1";
-            this.intCharaText.Size = new System.Drawing.Size(54, 27);
+            this.intCharaText.Size = new System.Drawing.Size(48, 23);
             this.intCharaText.TabIndex = 3;
             this.intCharaText.Text = "1";
             // 
             // vitCharaText
             // 
-            this.vitCharaText.Location = new System.Drawing.Point(85, 190);
+            this.vitCharaText.Location = new System.Drawing.Point(74, 142);
+            this.vitCharaText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vitCharaText.Name = "vitCharaText";
             this.vitCharaText.PlaceholderText = "1";
-            this.vitCharaText.Size = new System.Drawing.Size(54, 27);
+            this.vitCharaText.Size = new System.Drawing.Size(48, 23);
             this.vitCharaText.TabIndex = 5;
             this.vitCharaText.Text = "1";
             // 
             // spdCharaText
             // 
-            this.spdCharaText.Location = new System.Drawing.Point(85, 157);
+            this.spdCharaText.Location = new System.Drawing.Point(74, 118);
+            this.spdCharaText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.spdCharaText.Name = "spdCharaText";
             this.spdCharaText.PlaceholderText = "1";
-            this.spdCharaText.Size = new System.Drawing.Size(54, 27);
+            this.spdCharaText.Size = new System.Drawing.Size(48, 23);
             this.spdCharaText.TabIndex = 4;
             this.spdCharaText.Text = "1";
             // 
             // luckCharaText
             // 
-            this.luckCharaText.Location = new System.Drawing.Point(85, 223);
+            this.luckCharaText.Location = new System.Drawing.Point(74, 167);
+            this.luckCharaText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.luckCharaText.Name = "luckCharaText";
             this.luckCharaText.PlaceholderText = "110";
-            this.luckCharaText.Size = new System.Drawing.Size(54, 27);
+            this.luckCharaText.Size = new System.Drawing.Size(48, 23);
             this.luckCharaText.TabIndex = 6;
             this.luckCharaText.Text = "1";
             // 
             // powBreakText
             // 
-            this.powBreakText.Location = new System.Drawing.Point(158, 91);
+            this.powBreakText.Location = new System.Drawing.Point(138, 68);
+            this.powBreakText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.powBreakText.Name = "powBreakText";
-            this.powBreakText.Size = new System.Drawing.Size(66, 27);
+            this.powBreakText.Size = new System.Drawing.Size(58, 23);
             this.powBreakText.TabIndex = 7;
             this.powBreakText.Text = "0";
             // 
             // intBreakText
             // 
-            this.intBreakText.Location = new System.Drawing.Point(158, 124);
+            this.intBreakText.Location = new System.Drawing.Point(138, 93);
+            this.intBreakText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intBreakText.Name = "intBreakText";
-            this.intBreakText.Size = new System.Drawing.Size(66, 27);
+            this.intBreakText.Size = new System.Drawing.Size(58, 23);
             this.intBreakText.TabIndex = 8;
             this.intBreakText.Text = "0";
             // 
             // vitBreakText
             // 
-            this.vitBreakText.Location = new System.Drawing.Point(158, 190);
+            this.vitBreakText.Location = new System.Drawing.Point(138, 142);
+            this.vitBreakText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vitBreakText.Name = "vitBreakText";
-            this.vitBreakText.Size = new System.Drawing.Size(66, 27);
+            this.vitBreakText.Size = new System.Drawing.Size(58, 23);
             this.vitBreakText.TabIndex = 10;
             this.vitBreakText.Text = "0";
             // 
             // spdBreakText
             // 
-            this.spdBreakText.Location = new System.Drawing.Point(158, 157);
+            this.spdBreakText.Location = new System.Drawing.Point(138, 118);
+            this.spdBreakText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.spdBreakText.Name = "spdBreakText";
-            this.spdBreakText.Size = new System.Drawing.Size(66, 27);
+            this.spdBreakText.Size = new System.Drawing.Size(58, 23);
             this.spdBreakText.TabIndex = 9;
             this.spdBreakText.Text = "0";
             // 
             // luckBreakText
             // 
-            this.luckBreakText.Location = new System.Drawing.Point(158, 223);
+            this.luckBreakText.Location = new System.Drawing.Point(138, 167);
+            this.luckBreakText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.luckBreakText.Name = "luckBreakText";
-            this.luckBreakText.Size = new System.Drawing.Size(66, 27);
+            this.luckBreakText.Size = new System.Drawing.Size(58, 23);
             this.luckBreakText.TabIndex = 11;
             this.luckBreakText.Text = "0";
             // 
             // powTotalText
             // 
-            this.powTotalText.Location = new System.Drawing.Point(243, 91);
+            this.powTotalText.Location = new System.Drawing.Point(213, 68);
+            this.powTotalText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.powTotalText.Name = "powTotalText";
             this.powTotalText.PlaceholderText = "入力例 : 162+249";
-            this.powTotalText.Size = new System.Drawing.Size(279, 27);
+            this.powTotalText.Size = new System.Drawing.Size(245, 23);
             this.powTotalText.TabIndex = 12;
             // 
             // intTotalText
             // 
-            this.intTotalText.Location = new System.Drawing.Point(243, 124);
+            this.intTotalText.Location = new System.Drawing.Point(213, 93);
+            this.intTotalText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intTotalText.Name = "intTotalText";
             this.intTotalText.PlaceholderText = "入力例 : 1+153";
-            this.intTotalText.Size = new System.Drawing.Size(279, 27);
+            this.intTotalText.Size = new System.Drawing.Size(245, 23);
             this.intTotalText.TabIndex = 13;
             this.intTotalText.Text = "1";
             // 
             // vitTotalText
             // 
-            this.vitTotalText.Location = new System.Drawing.Point(243, 190);
+            this.vitTotalText.Location = new System.Drawing.Point(213, 142);
+            this.vitTotalText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vitTotalText.Name = "vitTotalText";
             this.vitTotalText.PlaceholderText = "入力例 : 2+43";
-            this.vitTotalText.Size = new System.Drawing.Size(279, 27);
+            this.vitTotalText.Size = new System.Drawing.Size(245, 23);
             this.vitTotalText.TabIndex = 15;
             this.vitTotalText.Text = "1";
             this.vitTotalText.TextChanged += new System.EventHandler(this.vitTotalText_TextChanged);
             // 
             // spdTotalText
             // 
-            this.spdTotalText.Location = new System.Drawing.Point(243, 157);
+            this.spdTotalText.Location = new System.Drawing.Point(213, 118);
+            this.spdTotalText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.spdTotalText.Name = "spdTotalText";
             this.spdTotalText.PlaceholderText = "入力例 : 2+117";
-            this.spdTotalText.Size = new System.Drawing.Size(279, 27);
+            this.spdTotalText.Size = new System.Drawing.Size(245, 23);
             this.spdTotalText.TabIndex = 14;
             this.spdTotalText.Text = "1";
             this.spdTotalText.TextChanged += new System.EventHandler(this.spdTotalText_TextChanged);
             // 
             // luckTotalText
             // 
-            this.luckTotalText.Location = new System.Drawing.Point(243, 223);
+            this.luckTotalText.Location = new System.Drawing.Point(213, 167);
+            this.luckTotalText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.luckTotalText.Name = "luckTotalText";
             this.luckTotalText.PlaceholderText = "入力例 : 98+128";
-            this.luckTotalText.Size = new System.Drawing.Size(279, 27);
+            this.luckTotalText.Size = new System.Drawing.Size(245, 23);
             this.luckTotalText.TabIndex = 16;
             this.luckTotalText.Text = "1";
             // 
             // atkInputText
             // 
-            this.atkInputText.Location = new System.Drawing.Point(100, 270);
+            this.atkInputText.Location = new System.Drawing.Point(88, 202);
+            this.atkInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.atkInputText.Name = "atkInputText";
             this.atkInputText.PlaceholderText = "表示ATKを入力";
-            this.atkInputText.Size = new System.Drawing.Size(154, 27);
+            this.atkInputText.Size = new System.Drawing.Size(135, 23);
             this.atkInputText.TabIndex = 17;
             // 
             // defInputText
             // 
-            this.defInputText.Location = new System.Drawing.Point(331, 270);
+            this.defInputText.Location = new System.Drawing.Point(290, 202);
+            this.defInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.defInputText.Name = "defInputText";
             this.defInputText.PlaceholderText = "表示DEFを入力";
-            this.defInputText.Size = new System.Drawing.Size(154, 27);
+            this.defInputText.Size = new System.Drawing.Size(135, 23);
             this.defInputText.TabIndex = 19;
             this.defInputText.Text = "2";
             // 
             // matInputText
             // 
-            this.matInputText.Location = new System.Drawing.Point(99, 303);
+            this.matInputText.Location = new System.Drawing.Point(87, 227);
+            this.matInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.matInputText.Name = "matInputText";
             this.matInputText.PlaceholderText = "表示MATを入力";
-            this.matInputText.Size = new System.Drawing.Size(155, 27);
+            this.matInputText.Size = new System.Drawing.Size(136, 23);
             this.matInputText.TabIndex = 21;
             this.matInputText.Text = "2";
             // 
             // mdfInputText
             // 
-            this.mdfInputText.Location = new System.Drawing.Point(331, 303);
+            this.mdfInputText.Location = new System.Drawing.Point(290, 227);
+            this.mdfInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mdfInputText.Name = "mdfInputText";
             this.mdfInputText.PlaceholderText = "表示MDFを入力";
-            this.mdfInputText.Size = new System.Drawing.Size(154, 27);
+            this.mdfInputText.Size = new System.Drawing.Size(135, 23);
             this.mdfInputText.TabIndex = 23;
             this.mdfInputText.Text = "15";
             // 
             // powBita
             // 
             this.powBita.ForeColor = System.Drawing.Color.Red;
-            this.powBita.Location = new System.Drawing.Point(117, 60);
+            this.powBita.Location = new System.Drawing.Point(102, 45);
+            this.powBita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.powBita.Name = "powBita";
-            this.powBita.Size = new System.Drawing.Size(94, 29);
+            this.powBita.Size = new System.Drawing.Size(82, 22);
             this.powBita.TabIndex = 25;
             this.powBita.Text = "POWビタ";
             this.powBita.UseVisualStyleBackColor = true;
@@ -367,9 +391,10 @@ namespace チョコラン計算機_非公式_
             // intBita
             // 
             this.intBita.ForeColor = System.Drawing.Color.Green;
-            this.intBita.Location = new System.Drawing.Point(17, 95);
+            this.intBita.Location = new System.Drawing.Point(15, 71);
+            this.intBita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intBita.Name = "intBita";
-            this.intBita.Size = new System.Drawing.Size(94, 29);
+            this.intBita.Size = new System.Drawing.Size(82, 22);
             this.intBita.TabIndex = 26;
             this.intBita.Text = "INTビタ";
             this.intBita.UseVisualStyleBackColor = true;
@@ -378,9 +403,10 @@ namespace チョコラン計算機_非公式_
             // vitBita
             // 
             this.vitBita.ForeColor = System.Drawing.Color.DarkOrange;
-            this.vitBita.Location = new System.Drawing.Point(117, 95);
+            this.vitBita.Location = new System.Drawing.Point(102, 71);
+            this.vitBita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vitBita.Name = "vitBita";
-            this.vitBita.Size = new System.Drawing.Size(94, 29);
+            this.vitBita.Size = new System.Drawing.Size(82, 22);
             this.vitBita.TabIndex = 27;
             this.vitBita.Text = "VITビタ";
             this.vitBita.UseVisualStyleBackColor = true;
@@ -389,9 +415,10 @@ namespace チョコラン計算機_非公式_
             // spdBita
             // 
             this.spdBita.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.spdBita.Location = new System.Drawing.Point(17, 130);
+            this.spdBita.Location = new System.Drawing.Point(15, 98);
+            this.spdBita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.spdBita.Name = "spdBita";
-            this.spdBita.Size = new System.Drawing.Size(94, 29);
+            this.spdBita.Size = new System.Drawing.Size(82, 22);
             this.spdBita.TabIndex = 28;
             this.spdBita.Text = "SPDビタ";
             this.spdBita.UseVisualStyleBackColor = true;
@@ -401,9 +428,10 @@ namespace チョコラン計算機_非公式_
             // 
             this.luckBita.BackColor = System.Drawing.SystemColors.ControlDark;
             this.luckBita.ForeColor = System.Drawing.Color.Yellow;
-            this.luckBita.Location = new System.Drawing.Point(117, 130);
+            this.luckBita.Location = new System.Drawing.Point(102, 98);
+            this.luckBita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.luckBita.Name = "luckBita";
-            this.luckBita.Size = new System.Drawing.Size(94, 29);
+            this.luckBita.Size = new System.Drawing.Size(82, 22);
             this.luckBita.TabIndex = 29;
             this.luckBita.Text = "LUKビタ";
             this.luckBita.UseVisualStyleBackColor = false;
@@ -411,9 +439,10 @@ namespace チョコラン計算機_非公式_
             // 
             // kanA
             // 
-            this.kanA.Location = new System.Drawing.Point(248, 60);
+            this.kanA.Location = new System.Drawing.Point(217, 45);
+            this.kanA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kanA.Name = "kanA";
-            this.kanA.Size = new System.Drawing.Size(94, 29);
+            this.kanA.Size = new System.Drawing.Size(82, 22);
             this.kanA.TabIndex = 31;
             this.kanA.Text = "魔獣缶A";
             this.kanA.UseVisualStyleBackColor = true;
@@ -421,9 +450,10 @@ namespace チョコラン計算機_非公式_
             // 
             // kanB
             // 
-            this.kanB.Location = new System.Drawing.Point(348, 60);
+            this.kanB.Location = new System.Drawing.Point(304, 45);
+            this.kanB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kanB.Name = "kanB";
-            this.kanB.Size = new System.Drawing.Size(94, 29);
+            this.kanB.Size = new System.Drawing.Size(82, 22);
             this.kanB.TabIndex = 32;
             this.kanB.Text = "魔獣缶B";
             this.kanB.UseVisualStyleBackColor = true;
@@ -431,9 +461,10 @@ namespace チョコラン計算機_非公式_
             // 
             // allBita
             // 
-            this.allBita.Location = new System.Drawing.Point(17, 60);
+            this.allBita.Location = new System.Drawing.Point(15, 45);
+            this.allBita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.allBita.Name = "allBita";
-            this.allBita.Size = new System.Drawing.Size(94, 29);
+            this.allBita.Size = new System.Drawing.Size(82, 22);
             this.allBita.TabIndex = 30;
             this.allBita.Text = "ALLビタ";
             this.allBita.UseVisualStyleBackColor = true;
@@ -441,9 +472,10 @@ namespace チョコラン計算機_非公式_
             // 
             // powSeal
             // 
-            this.powSeal.Location = new System.Drawing.Point(248, 95);
+            this.powSeal.Location = new System.Drawing.Point(217, 71);
+            this.powSeal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.powSeal.Name = "powSeal";
-            this.powSeal.Size = new System.Drawing.Size(94, 29);
+            this.powSeal.Size = new System.Drawing.Size(82, 22);
             this.powSeal.TabIndex = 38;
             this.powSeal.Text = "POWシール";
             this.powSeal.UseVisualStyleBackColor = true;
@@ -451,9 +483,10 @@ namespace チョコラン計算機_非公式_
             // 
             // intSeal
             // 
-            this.intSeal.Location = new System.Drawing.Point(348, 95);
+            this.intSeal.Location = new System.Drawing.Point(304, 71);
+            this.intSeal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intSeal.Name = "intSeal";
-            this.intSeal.Size = new System.Drawing.Size(94, 29);
+            this.intSeal.Size = new System.Drawing.Size(82, 22);
             this.intSeal.TabIndex = 39;
             this.intSeal.Text = "INTシール";
             this.intSeal.UseVisualStyleBackColor = true;
@@ -461,9 +494,10 @@ namespace チョコラン計算機_非公式_
             // 
             // vitSeal
             // 
-            this.vitSeal.Location = new System.Drawing.Point(248, 130);
+            this.vitSeal.Location = new System.Drawing.Point(217, 98);
+            this.vitSeal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vitSeal.Name = "vitSeal";
-            this.vitSeal.Size = new System.Drawing.Size(94, 29);
+            this.vitSeal.Size = new System.Drawing.Size(82, 22);
             this.vitSeal.TabIndex = 40;
             this.vitSeal.Text = "VITシール";
             this.vitSeal.UseVisualStyleBackColor = true;
@@ -471,9 +505,10 @@ namespace チョコラン計算機_非公式_
             // 
             // spdSeal
             // 
-            this.spdSeal.Location = new System.Drawing.Point(348, 130);
+            this.spdSeal.Location = new System.Drawing.Point(304, 98);
+            this.spdSeal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.spdSeal.Name = "spdSeal";
-            this.spdSeal.Size = new System.Drawing.Size(94, 29);
+            this.spdSeal.Size = new System.Drawing.Size(82, 22);
             this.spdSeal.TabIndex = 41;
             this.spdSeal.Text = "SPDシール";
             this.spdSeal.UseVisualStyleBackColor = true;
@@ -481,9 +516,10 @@ namespace チョコラン計算機_非公式_
             // 
             // luckSeal
             // 
-            this.luckSeal.Location = new System.Drawing.Point(248, 165);
+            this.luckSeal.Location = new System.Drawing.Point(217, 124);
+            this.luckSeal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.luckSeal.Name = "luckSeal";
-            this.luckSeal.Size = new System.Drawing.Size(94, 29);
+            this.luckSeal.Size = new System.Drawing.Size(82, 22);
             this.luckSeal.TabIndex = 42;
             this.luckSeal.Text = "LUKシール";
             this.luckSeal.UseVisualStyleBackColor = true;
@@ -492,9 +528,10 @@ namespace チョコラン計算機_非公式_
             // bitaReset
             // 
             this.bitaReset.BackColor = System.Drawing.Color.LightSalmon;
-            this.bitaReset.Location = new System.Drawing.Point(69, 25);
+            this.bitaReset.Location = new System.Drawing.Point(60, 19);
+            this.bitaReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bitaReset.Name = "bitaReset";
-            this.bitaReset.Size = new System.Drawing.Size(94, 29);
+            this.bitaReset.Size = new System.Drawing.Size(82, 22);
             this.bitaReset.TabIndex = 11;
             this.bitaReset.TabStop = false;
             this.bitaReset.Text = "ビタリセット";
@@ -504,9 +541,10 @@ namespace チョコラン計算機_非公式_
             // kanReset
             // 
             this.kanReset.BackColor = System.Drawing.Color.LightSalmon;
-            this.kanReset.Location = new System.Drawing.Point(276, 25);
+            this.kanReset.Location = new System.Drawing.Point(242, 19);
+            this.kanReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kanReset.Name = "kanReset";
-            this.kanReset.Size = new System.Drawing.Size(142, 29);
+            this.kanReset.Size = new System.Drawing.Size(124, 22);
             this.kanReset.TabIndex = 10;
             this.kanReset.TabStop = false;
             this.kanReset.Text = "缶＆シールリセット";
@@ -517,9 +555,10 @@ namespace チョコラン計算機_非公式_
             // 
             this.allReset.BackColor = System.Drawing.Color.Crimson;
             this.allReset.ForeColor = System.Drawing.Color.Cornsilk;
-            this.allReset.Location = new System.Drawing.Point(276, 360);
+            this.allReset.Location = new System.Drawing.Point(242, 270);
+            this.allReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.allReset.Name = "allReset";
-            this.allReset.Size = new System.Drawing.Size(142, 48);
+            this.allReset.Size = new System.Drawing.Size(124, 36);
             this.allReset.TabIndex = 17;
             this.allReset.TabStop = false;
             this.allReset.Text = "すべてリセット";
@@ -529,9 +568,10 @@ namespace チョコラン計算機_非公式_
             // atariki
             // 
             this.atariki.ForeColor = System.Drawing.Color.Red;
-            this.atariki.Location = new System.Drawing.Point(241, 256);
+            this.atariki.Location = new System.Drawing.Point(211, 192);
+            this.atariki.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.atariki.Name = "atariki";
-            this.atariki.Size = new System.Drawing.Size(106, 34);
+            this.atariki.Size = new System.Drawing.Size(93, 26);
             this.atariki.TabIndex = 43;
             this.atariki.Text = "アタークリキッド";
             this.atariki.UseVisualStyleBackColor = true;
@@ -540,9 +580,10 @@ namespace チョコラン計算機_非公式_
             // mamoriki
             // 
             this.mamoriki.ForeColor = System.Drawing.Color.Blue;
-            this.mamoriki.Location = new System.Drawing.Point(353, 256);
+            this.mamoriki.Location = new System.Drawing.Point(309, 192);
+            this.mamoriki.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mamoriki.Name = "mamoriki";
-            this.mamoriki.Size = new System.Drawing.Size(106, 34);
+            this.mamoriki.Size = new System.Drawing.Size(93, 26);
             this.mamoriki.TabIndex = 44;
             this.mamoriki.Text = "マモールリキッド";
             this.mamoriki.UseVisualStyleBackColor = true;
@@ -551,9 +592,10 @@ namespace チョコラン計算機_非公式_
             // mahoata
             // 
             this.mahoata.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.mahoata.Location = new System.Drawing.Point(241, 296);
+            this.mahoata.Location = new System.Drawing.Point(211, 222);
+            this.mahoata.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mahoata.Name = "mahoata";
-            this.mahoata.Size = new System.Drawing.Size(106, 34);
+            this.mahoata.Size = new System.Drawing.Size(93, 26);
             this.mahoata.TabIndex = 45;
             this.mahoata.Text = "マホアタリキッド";
             this.mahoata.UseVisualStyleBackColor = true;
@@ -564,9 +606,9 @@ namespace チョコラン計算機_非公式_
             this.powLable.AutoSize = true;
             this.powLable.BackColor = System.Drawing.SystemColors.Control;
             this.powLable.ForeColor = System.Drawing.Color.Crimson;
-            this.powLable.Location = new System.Drawing.Point(26, 94);
+            this.powLable.Location = new System.Drawing.Point(23, 70);
             this.powLable.Name = "powLable";
-            this.powLable.Size = new System.Drawing.Size(42, 20);
+            this.powLable.Size = new System.Drawing.Size(34, 15);
             this.powLable.TabIndex = 40;
             this.powLable.Text = "POW";
             // 
@@ -574,9 +616,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.intLable.AutoSize = true;
             this.intLable.ForeColor = System.Drawing.Color.DarkCyan;
-            this.intLable.Location = new System.Drawing.Point(26, 127);
+            this.intLable.Location = new System.Drawing.Point(23, 95);
             this.intLable.Name = "intLable";
-            this.intLable.Size = new System.Drawing.Size(32, 20);
+            this.intLable.Size = new System.Drawing.Size(25, 15);
             this.intLable.TabIndex = 41;
             this.intLable.Text = "INT";
             // 
@@ -584,9 +626,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.vitLable.AutoSize = true;
             this.vitLable.ForeColor = System.Drawing.Color.DarkOrange;
-            this.vitLable.Location = new System.Drawing.Point(26, 193);
+            this.vitLable.Location = new System.Drawing.Point(23, 145);
             this.vitLable.Name = "vitLable";
-            this.vitLable.Size = new System.Drawing.Size(30, 20);
+            this.vitLable.Size = new System.Drawing.Size(23, 15);
             this.vitLable.TabIndex = 42;
             this.vitLable.Text = "VIT";
             // 
@@ -594,9 +636,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.spdLable.AutoSize = true;
             this.spdLable.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.spdLable.Location = new System.Drawing.Point(26, 160);
+            this.spdLable.Location = new System.Drawing.Point(23, 120);
             this.spdLable.Name = "spdLable";
-            this.spdLable.Size = new System.Drawing.Size(36, 20);
+            this.spdLable.Size = new System.Drawing.Size(28, 15);
             this.spdLable.TabIndex = 43;
             this.spdLable.Text = "SPD";
             // 
@@ -605,9 +647,9 @@ namespace チョコラン計算機_非公式_
             this.luckLable.AutoSize = true;
             this.luckLable.BackColor = System.Drawing.SystemColors.ControlDark;
             this.luckLable.ForeColor = System.Drawing.Color.Khaki;
-            this.luckLable.Location = new System.Drawing.Point(26, 226);
+            this.luckLable.Location = new System.Drawing.Point(23, 170);
             this.luckLable.Name = "luckLable";
-            this.luckLable.Size = new System.Drawing.Size(35, 20);
+            this.luckLable.Size = new System.Drawing.Size(28, 15);
             this.luckLable.TabIndex = 44;
             this.luckLable.Text = "LUK";
             // 
@@ -615,9 +657,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.defShow.AutoSize = true;
             this.defShow.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.defShow.Location = new System.Drawing.Point(327, 66);
+            this.defShow.Location = new System.Drawing.Point(286, 50);
             this.defShow.Name = "defShow";
-            this.defShow.Size = new System.Drawing.Size(42, 20);
+            this.defShow.Size = new System.Drawing.Size(33, 15);
             this.defShow.TabIndex = 45;
             this.defShow.Text = "DEF :";
             // 
@@ -626,9 +668,9 @@ namespace チョコラン計算機_非公式_
             this.atkLable.AutoSize = true;
             this.atkLable.BackColor = System.Drawing.SystemColors.Menu;
             this.atkLable.ForeColor = System.Drawing.Color.Red;
-            this.atkLable.Location = new System.Drawing.Point(59, 273);
+            this.atkLable.Location = new System.Drawing.Point(52, 205);
             this.atkLable.Name = "atkLable";
-            this.atkLable.Size = new System.Drawing.Size(35, 20);
+            this.atkLable.Size = new System.Drawing.Size(28, 15);
             this.atkLable.TabIndex = 46;
             this.atkLable.Text = "ATK";
             // 
@@ -636,9 +678,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.matLable.AutoSize = true;
             this.matLable.ForeColor = System.Drawing.Color.ForestGreen;
-            this.matLable.Location = new System.Drawing.Point(54, 306);
+            this.matLable.Location = new System.Drawing.Point(47, 230);
             this.matLable.Name = "matLable";
-            this.matLable.Size = new System.Drawing.Size(39, 20);
+            this.matLable.Size = new System.Drawing.Size(32, 15);
             this.matLable.TabIndex = 47;
             this.matLable.Text = "MAT";
             // 
@@ -646,9 +688,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.mdfShow.AutoSize = true;
             this.mdfShow.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.mdfShow.Location = new System.Drawing.Point(321, 132);
+            this.mdfShow.Location = new System.Drawing.Point(281, 99);
             this.mdfShow.Name = "mdfShow";
-            this.mdfShow.Size = new System.Drawing.Size(47, 20);
+            this.mdfShow.Size = new System.Drawing.Size(38, 15);
             this.mdfShow.TabIndex = 48;
             this.mdfShow.Text = "MDF :";
             // 
@@ -656,9 +698,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.statusLable.AutoSize = true;
             this.statusLable.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.statusLable.Location = new System.Drawing.Point(85, 64);
+            this.statusLable.Location = new System.Drawing.Point(74, 48);
             this.statusLable.Name = "statusLable";
-            this.statusLable.Size = new System.Drawing.Size(56, 20);
+            this.statusLable.Size = new System.Drawing.Size(45, 15);
             this.statusLable.TabIndex = 49;
             this.statusLable.Text = "ステ振り";
             // 
@@ -666,9 +708,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.breakLable.AutoSize = true;
             this.breakLable.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.breakLable.Location = new System.Drawing.Point(171, 64);
+            this.breakLable.Location = new System.Drawing.Point(150, 48);
             this.breakLable.Name = "breakLable";
-            this.breakLable.Size = new System.Drawing.Size(41, 20);
+            this.breakLable.Size = new System.Drawing.Size(32, 15);
             this.breakLable.TabIndex = 50;
             this.breakLable.Text = "カード";
             // 
@@ -676,9 +718,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.statusTotalLable.AutoSize = true;
             this.statusTotalLable.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.statusTotalLable.Location = new System.Drawing.Point(243, 64);
+            this.statusTotalLable.Location = new System.Drawing.Point(213, 48);
             this.statusTotalLable.Name = "statusTotalLable";
-            this.statusTotalLable.Size = new System.Drawing.Size(269, 20);
+            this.statusTotalLable.Size = new System.Drawing.Size(216, 15);
             this.statusTotalLable.TabIndex = 51;
             this.statusTotalLable.Text = "合計(ヌシステあり、ビタ等なしの数値を入力)";
             // 
@@ -697,9 +739,10 @@ namespace チョコラン計算機_非公式_
             "8",
             "9",
             "10"});
-            this.powMakiBox.Location = new System.Drawing.Point(17, 240);
+            this.powMakiBox.Location = new System.Drawing.Point(15, 180);
+            this.powMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.powMakiBox.Name = "powMakiBox";
-            this.powMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.powMakiBox.Size = new System.Drawing.Size(84, 23);
             this.powMakiBox.TabIndex = 33;
             this.powMakiBox.Text = "POW巻物";
             this.powMakiBox.SelectedIndexChanged += new System.EventHandler(this.powMakiBox_SelectedIndexChanged);
@@ -719,9 +762,10 @@ namespace チョコラン計算機_非公式_
             "8",
             "9",
             "10"});
-            this.intMakiBox.Location = new System.Drawing.Point(17, 274);
+            this.intMakiBox.Location = new System.Drawing.Point(15, 206);
+            this.intMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intMakiBox.Name = "intMakiBox";
-            this.intMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.intMakiBox.Size = new System.Drawing.Size(84, 23);
             this.intMakiBox.TabIndex = 34;
             this.intMakiBox.Text = "INT巻物";
             this.intMakiBox.SelectedIndexChanged += new System.EventHandler(this.intMakiBox_SelectedIndexChanged);
@@ -741,9 +785,10 @@ namespace チョコラン計算機_非公式_
             "8",
             "9",
             "10"});
-            this.vitMakiBox.Location = new System.Drawing.Point(17, 308);
+            this.vitMakiBox.Location = new System.Drawing.Point(15, 231);
+            this.vitMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vitMakiBox.Name = "vitMakiBox";
-            this.vitMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.vitMakiBox.Size = new System.Drawing.Size(84, 23);
             this.vitMakiBox.TabIndex = 35;
             this.vitMakiBox.Text = "VIT巻物";
             this.vitMakiBox.SelectedIndexChanged += new System.EventHandler(this.vitMakiBox_SelectedIndexChanged);
@@ -763,9 +808,10 @@ namespace チョコラン計算機_非公式_
             "8",
             "9",
             "10"});
-            this.spdMakiBox.Location = new System.Drawing.Point(17, 342);
+            this.spdMakiBox.Location = new System.Drawing.Point(15, 256);
+            this.spdMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.spdMakiBox.Name = "spdMakiBox";
-            this.spdMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.spdMakiBox.Size = new System.Drawing.Size(84, 23);
             this.spdMakiBox.TabIndex = 36;
             this.spdMakiBox.Text = "SPD巻物";
             this.spdMakiBox.SelectedIndexChanged += new System.EventHandler(this.spdMakiBox_SelectedIndexChanged);
@@ -785,9 +831,10 @@ namespace チョコラン計算機_非公式_
             "8",
             "9",
             "10"});
-            this.luckMakiBox.Location = new System.Drawing.Point(17, 376);
+            this.luckMakiBox.Location = new System.Drawing.Point(15, 282);
+            this.luckMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.luckMakiBox.Name = "luckMakiBox";
-            this.luckMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.luckMakiBox.Size = new System.Drawing.Size(84, 23);
             this.luckMakiBox.TabIndex = 37;
             this.luckMakiBox.Text = "LUK巻物";
             this.luckMakiBox.SelectedIndexChanged += new System.EventHandler(this.luckMakiBox_SelectedIndexChanged);
@@ -807,9 +854,10 @@ namespace チョコラン計算機_非公式_
             "160",
             "180",
             "200"});
-            this.atkMakiBox.Location = new System.Drawing.Point(118, 240);
+            this.atkMakiBox.Location = new System.Drawing.Point(103, 180);
+            this.atkMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.atkMakiBox.Name = "atkMakiBox";
-            this.atkMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.atkMakiBox.Size = new System.Drawing.Size(84, 23);
             this.atkMakiBox.TabIndex = 18;
             this.atkMakiBox.Text = "ATK巻物";
             this.atkMakiBox.SelectedIndexChanged += new System.EventHandler(this.atkMakiBox_SelectedIndexChanged);
@@ -829,9 +877,10 @@ namespace チョコラン計算機_非公式_
             "160",
             "180",
             "200"});
-            this.defMakiBox.Location = new System.Drawing.Point(118, 274);
+            this.defMakiBox.Location = new System.Drawing.Point(103, 206);
+            this.defMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.defMakiBox.Name = "defMakiBox";
-            this.defMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.defMakiBox.Size = new System.Drawing.Size(84, 23);
             this.defMakiBox.TabIndex = 20;
             this.defMakiBox.Text = "DEF巻物";
             this.defMakiBox.SelectedIndexChanged += new System.EventHandler(this.defMakiBox_SelectedIndexChanged);
@@ -851,9 +900,10 @@ namespace チョコラン計算機_非公式_
             "160",
             "180",
             "200"});
-            this.matMakiBox.Location = new System.Drawing.Point(118, 308);
+            this.matMakiBox.Location = new System.Drawing.Point(103, 231);
+            this.matMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.matMakiBox.Name = "matMakiBox";
-            this.matMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.matMakiBox.Size = new System.Drawing.Size(84, 23);
             this.matMakiBox.TabIndex = 22;
             this.matMakiBox.Text = "MAT巻物";
             this.matMakiBox.SelectedIndexChanged += new System.EventHandler(this.matMakiBox_SelectedIndexChanged);
@@ -873,9 +923,10 @@ namespace チョコラン計算機_非公式_
             "160",
             "180",
             "200"});
-            this.mdfMakiBox.Location = new System.Drawing.Point(118, 342);
+            this.mdfMakiBox.Location = new System.Drawing.Point(103, 256);
+            this.mdfMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mdfMakiBox.Name = "mdfMakiBox";
-            this.mdfMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.mdfMakiBox.Size = new System.Drawing.Size(84, 23);
             this.mdfMakiBox.TabIndex = 24;
             this.mdfMakiBox.Text = "MDF巻物";
             this.mdfMakiBox.SelectedIndexChanged += new System.EventHandler(this.mdfMakiBox_SelectedIndexChanged);
@@ -919,9 +970,11 @@ namespace チョコラン計算機_非公式_
             this.statusInput.Controls.Add(this.vitLable);
             this.statusInput.Controls.Add(this.powLable);
             this.statusInput.Controls.Add(this.intLable);
-            this.statusInput.Location = new System.Drawing.Point(17, 12);
+            this.statusInput.Location = new System.Drawing.Point(15, 9);
+            this.statusInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.statusInput.Name = "statusInput";
-            this.statusInput.Size = new System.Drawing.Size(546, 355);
+            this.statusInput.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.statusInput.Size = new System.Drawing.Size(478, 266);
             this.statusInput.TabIndex = 62;
             this.statusInput.TabStop = false;
             this.statusInput.Text = "ステータス入力";
@@ -931,9 +984,9 @@ namespace チョコラン計算機_非公式_
             this.SPLabel.AutoSize = true;
             this.SPLabel.BackColor = System.Drawing.Color.Aquamarine;
             this.SPLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SPLabel.Location = new System.Drawing.Point(366, 31);
+            this.SPLabel.Location = new System.Drawing.Point(320, 23);
             this.SPLabel.Name = "SPLabel";
-            this.SPLabel.Size = new System.Drawing.Size(25, 20);
+            this.SPLabel.Size = new System.Drawing.Size(20, 15);
             this.SPLabel.TabIndex = 81;
             this.SPLabel.Text = "SP";
             // 
@@ -942,25 +995,27 @@ namespace チョコラン計算機_非公式_
             this.HPLabel.AutoSize = true;
             this.HPLabel.BackColor = System.Drawing.Color.Bisque;
             this.HPLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.HPLabel.Location = new System.Drawing.Point(184, 31);
+            this.HPLabel.Location = new System.Drawing.Point(161, 23);
             this.HPLabel.Name = "HPLabel";
-            this.HPLabel.Size = new System.Drawing.Size(28, 20);
+            this.HPLabel.Size = new System.Drawing.Size(23, 15);
             this.HPLabel.TabIndex = 80;
             this.HPLabel.Text = "HP";
             // 
             // SPInputText
             // 
-            this.SPInputText.Location = new System.Drawing.Point(397, 28);
+            this.SPInputText.Location = new System.Drawing.Point(347, 21);
+            this.SPInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SPInputText.Name = "SPInputText";
-            this.SPInputText.Size = new System.Drawing.Size(125, 27);
+            this.SPInputText.Size = new System.Drawing.Size(110, 23);
             this.SPInputText.TabIndex = 79;
             this.SPInputText.Text = "10000";
             // 
             // HPInputText
             // 
-            this.HPInputText.Location = new System.Drawing.Point(218, 28);
+            this.HPInputText.Location = new System.Drawing.Point(191, 21);
+            this.HPInputText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HPInputText.Name = "HPInputText";
-            this.HPInputText.Size = new System.Drawing.Size(125, 27);
+            this.HPInputText.Size = new System.Drawing.Size(110, 23);
             this.HPInputText.TabIndex = 78;
             this.HPInputText.Text = "10000";
             this.HPInputText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -970,9 +1025,9 @@ namespace チョコラン計算機_非公式_
             this.levelLabel.AutoSize = true;
             this.levelLabel.BackColor = System.Drawing.SystemColors.Info;
             this.levelLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.levelLabel.Location = new System.Drawing.Point(11, 31);
+            this.levelLabel.Location = new System.Drawing.Point(10, 23);
             this.levelLabel.Name = "levelLabel";
-            this.levelLabel.Size = new System.Drawing.Size(75, 20);
+            this.levelLabel.Size = new System.Drawing.Size(61, 15);
             this.levelLabel.TabIndex = 77;
             this.levelLabel.Text = "キャラレベル";
             // 
@@ -980,9 +1035,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.mdfLabel.AutoSize = true;
             this.mdfLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.mdfLabel.Location = new System.Drawing.Point(285, 306);
+            this.mdfLabel.Location = new System.Drawing.Point(249, 230);
             this.mdfLabel.Name = "mdfLabel";
-            this.mdfLabel.Size = new System.Drawing.Size(40, 20);
+            this.mdfLabel.Size = new System.Drawing.Size(32, 15);
             this.mdfLabel.TabIndex = 76;
             this.mdfLabel.Text = "MDF";
             // 
@@ -990,9 +1045,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.defLabel.AutoSize = true;
             this.defLabel.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.defLabel.Location = new System.Drawing.Point(290, 272);
+            this.defLabel.Location = new System.Drawing.Point(254, 204);
             this.defLabel.Name = "defLabel";
-            this.defLabel.Size = new System.Drawing.Size(35, 20);
+            this.defLabel.Size = new System.Drawing.Size(27, 15);
             this.defLabel.TabIndex = 62;
             this.defLabel.Text = "DEF";
             // 
@@ -1031,9 +1086,11 @@ namespace チョコラン計算機_非公式_
             this.dpGroup.Controls.Add(this.luckBita);
             this.dpGroup.Controls.Add(this.allBita);
             this.dpGroup.Controls.Add(this.bitaReset);
-            this.dpGroup.Location = new System.Drawing.Point(569, 12);
+            this.dpGroup.Location = new System.Drawing.Point(498, 9);
+            this.dpGroup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dpGroup.Name = "dpGroup";
-            this.dpGroup.Size = new System.Drawing.Size(476, 414);
+            this.dpGroup.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dpGroup.Size = new System.Drawing.Size(416, 310);
             this.dpGroup.TabIndex = 63;
             this.dpGroup.TabStop = false;
             this.dpGroup.Text = "消費アイテム";
@@ -1055,9 +1112,10 @@ namespace チョコラン計算機_非公式_
             "1600",
             "1800",
             "2000"});
-            this.SPMakiBox.Location = new System.Drawing.Point(118, 206);
+            this.SPMakiBox.Location = new System.Drawing.Point(103, 154);
+            this.SPMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SPMakiBox.Name = "SPMakiBox";
-            this.SPMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.SPMakiBox.Size = new System.Drawing.Size(84, 23);
             this.SPMakiBox.TabIndex = 68;
             this.SPMakiBox.Text = "SP巻物";
             this.SPMakiBox.SelectedIndexChanged += new System.EventHandler(this.SPMakiBox_SelectedIndexChanged);
@@ -1079,9 +1137,10 @@ namespace チョコラン計算機_非公式_
             "1600",
             "1800",
             "2000"});
-            this.HPMakiBox.Location = new System.Drawing.Point(17, 206);
+            this.HPMakiBox.Location = new System.Drawing.Point(15, 154);
+            this.HPMakiBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HPMakiBox.Name = "HPMakiBox";
-            this.HPMakiBox.Size = new System.Drawing.Size(95, 28);
+            this.HPMakiBox.Size = new System.Drawing.Size(84, 23);
             this.HPMakiBox.TabIndex = 67;
             this.HPMakiBox.Text = "HP巻物";
             this.HPMakiBox.SelectedIndexChanged += new System.EventHandler(this.HPMakiBox_SelectedIndexChanged);
@@ -1089,9 +1148,10 @@ namespace チョコラン計算機_非公式_
             // liquidReset
             // 
             this.liquidReset.BackColor = System.Drawing.Color.LightSalmon;
-            this.liquidReset.Location = new System.Drawing.Point(276, 219);
+            this.liquidReset.Location = new System.Drawing.Point(242, 164);
+            this.liquidReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.liquidReset.Name = "liquidReset";
-            this.liquidReset.Size = new System.Drawing.Size(142, 31);
+            this.liquidReset.Size = new System.Drawing.Size(124, 23);
             this.liquidReset.TabIndex = 66;
             this.liquidReset.TabStop = false;
             this.liquidReset.Text = "リキッドリセット";
@@ -1101,9 +1161,10 @@ namespace チョコラン計算機_非公式_
             // makiReset
             // 
             this.makiReset.BackColor = System.Drawing.Color.LightSalmon;
-            this.makiReset.Location = new System.Drawing.Point(69, 171);
+            this.makiReset.Location = new System.Drawing.Point(60, 128);
+            this.makiReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.makiReset.Name = "makiReset";
-            this.makiReset.Size = new System.Drawing.Size(94, 29);
+            this.makiReset.Size = new System.Drawing.Size(82, 22);
             this.makiReset.TabIndex = 65;
             this.makiReset.TabStop = false;
             this.makiReset.Text = "巻物リセット";
@@ -1113,9 +1174,10 @@ namespace チョコラン計算機_非公式_
             // mahomamo
             // 
             this.mahomamo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.mahomamo.Location = new System.Drawing.Point(353, 296);
+            this.mahomamo.Location = new System.Drawing.Point(309, 222);
+            this.mahomamo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mahomamo.Name = "mahomamo";
-            this.mahomamo.Size = new System.Drawing.Size(106, 34);
+            this.mahomamo.Size = new System.Drawing.Size(93, 26);
             this.mahomamo.TabIndex = 46;
             this.mahomamo.Text = "マホマモリキッド";
             this.mahomamo.UseVisualStyleBackColor = true;
@@ -1123,24 +1185,66 @@ namespace チョコラン計算機_非公式_
             // 
             // skillGroup
             // 
+            this.skillGroup.Controls.Add(this.beneWing);
+            this.skillGroup.Controls.Add(this.fairyMag);
+            this.skillGroup.Controls.Add(this.fairyPhy);
             this.skillGroup.Controls.Add(this.scraperReset);
             this.skillGroup.Controls.Add(this.specialSkillReset);
             this.skillGroup.Controls.Add(this.fisCurse);
             this.skillGroup.Controls.Add(this.eruWing);
             this.skillGroup.Controls.Add(this.bradScraper);
-            this.skillGroup.Location = new System.Drawing.Point(569, 432);
+            this.skillGroup.Location = new System.Drawing.Point(498, 324);
+            this.skillGroup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.skillGroup.Name = "skillGroup";
-            this.skillGroup.Size = new System.Drawing.Size(476, 151);
+            this.skillGroup.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.skillGroup.Size = new System.Drawing.Size(416, 211);
             this.skillGroup.TabIndex = 64;
             this.skillGroup.TabStop = false;
             this.skillGroup.Text = "スキル";
             // 
+            // beneWing
+            // 
+            this.beneWing.Location = new System.Drawing.Point(18, 140);
+            this.beneWing.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.beneWing.Name = "beneWing";
+            this.beneWing.Size = new System.Drawing.Size(135, 30);
+            this.beneWing.TabIndex = 4;
+            this.beneWing.TabStop = false;
+            this.beneWing.Text = "祝福の蒼盾";
+            this.beneWing.UseVisualStyleBackColor = true;
+            this.beneWing.Click += new System.EventHandler(this.beneWing_Click);
+            // 
+            // fairyMag
+            // 
+            this.fairyMag.Location = new System.Drawing.Point(158, 106);
+            this.fairyMag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fairyMag.Name = "fairyMag";
+            this.fairyMag.Size = new System.Drawing.Size(135, 30);
+            this.fairyMag.TabIndex = 3;
+            this.fairyMag.TabStop = false;
+            this.fairyMag.Text = "妖精王の祝福(魔法)";
+            this.fairyMag.UseVisualStyleBackColor = true;
+            this.fairyMag.Click += new System.EventHandler(this.fairyMag_Click);
+            // 
+            // fairyPhy
+            // 
+            this.fairyPhy.Location = new System.Drawing.Point(18, 106);
+            this.fairyPhy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fairyPhy.Name = "fairyPhy";
+            this.fairyPhy.Size = new System.Drawing.Size(135, 30);
+            this.fairyPhy.TabIndex = 2;
+            this.fairyPhy.TabStop = false;
+            this.fairyPhy.Text = "妖精王の祝福(物理)";
+            this.fairyPhy.UseVisualStyleBackColor = true;
+            this.fairyPhy.Click += new System.EventHandler(this.fairyPhy_Click);
+            // 
             // scraperReset
             // 
             this.scraperReset.BackColor = System.Drawing.Color.LightSalmon;
-            this.scraperReset.Location = new System.Drawing.Point(322, 40);
+            this.scraperReset.Location = new System.Drawing.Point(282, 30);
+            this.scraperReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.scraperReset.Name = "scraperReset";
-            this.scraperReset.Size = new System.Drawing.Size(137, 30);
+            this.scraperReset.Size = new System.Drawing.Size(120, 22);
             this.scraperReset.TabIndex = 20;
             this.scraperReset.TabStop = false;
             this.scraperReset.Text = "スクレイパーリセット";
@@ -1150,9 +1254,10 @@ namespace チョコラン計算機_非公式_
             // specialSkillReset
             // 
             this.specialSkillReset.BackColor = System.Drawing.Color.LightSalmon;
-            this.specialSkillReset.Location = new System.Drawing.Point(346, 97);
+            this.specialSkillReset.Location = new System.Drawing.Point(311, 178);
+            this.specialSkillReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.specialSkillReset.Name = "specialSkillReset";
-            this.specialSkillReset.Size = new System.Drawing.Size(113, 39);
+            this.specialSkillReset.Size = new System.Drawing.Size(99, 29);
             this.specialSkillReset.TabIndex = 19;
             this.specialSkillReset.TabStop = false;
             this.specialSkillReset.Text = "特殊リセット";
@@ -1161,10 +1266,11 @@ namespace チョコラン計算機_非公式_
             // 
             // fisCurse
             // 
-            this.fisCurse.Location = new System.Drawing.Point(181, 96);
+            this.fisCurse.Location = new System.Drawing.Point(158, 140);
+            this.fisCurse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fisCurse.Name = "fisCurse";
-            this.fisCurse.Size = new System.Drawing.Size(154, 40);
-            this.fisCurse.TabIndex = 2;
+            this.fisCurse.Size = new System.Drawing.Size(135, 30);
+            this.fisCurse.TabIndex = 5;
             this.fisCurse.TabStop = false;
             this.fisCurse.Text = "邪神の呪詛";
             this.fisCurse.UseVisualStyleBackColor = true;
@@ -1172,9 +1278,10 @@ namespace チョコラン計算機_非公式_
             // 
             // eruWing
             // 
-            this.eruWing.Location = new System.Drawing.Point(21, 96);
+            this.eruWing.Location = new System.Drawing.Point(18, 73);
+            this.eruWing.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.eruWing.Name = "eruWing";
-            this.eruWing.Size = new System.Drawing.Size(154, 40);
+            this.eruWing.Size = new System.Drawing.Size(135, 30);
             this.eruWing.TabIndex = 1;
             this.eruWing.TabStop = false;
             this.eruWing.Text = "大天使の加護";
@@ -1183,9 +1290,10 @@ namespace チョコラン計算機_非公式_
             // 
             // bradScraper
             // 
-            this.bradScraper.Location = new System.Drawing.Point(83, 40);
+            this.bradScraper.Location = new System.Drawing.Point(73, 30);
+            this.bradScraper.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bradScraper.Name = "bradScraper";
-            this.bradScraper.Size = new System.Drawing.Size(203, 30);
+            this.bradScraper.Size = new System.Drawing.Size(178, 22);
             this.bradScraper.TabIndex = 0;
             this.bradScraper.TabStop = false;
             this.bradScraper.Text = "ブラッドスクレイパー";
@@ -1217,9 +1325,11 @@ namespace チョコラン計算機_非公式_
             this.showStatus.Controls.Add(this.vitShow);
             this.showStatus.Controls.Add(this.defShow);
             this.showStatus.Controls.Add(this.mdfShow);
-            this.showStatus.Location = new System.Drawing.Point(17, 373);
+            this.showStatus.Location = new System.Drawing.Point(15, 280);
+            this.showStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.showStatus.Name = "showStatus";
-            this.showStatus.Size = new System.Drawing.Size(546, 210);
+            this.showStatus.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.showStatus.Size = new System.Drawing.Size(478, 255);
             this.showStatus.TabIndex = 65;
             this.showStatus.TabStop = false;
             this.showStatus.Text = "表示ステータス";
@@ -1227,17 +1337,17 @@ namespace チョコラン計算機_非公式_
             // SPOutputLabel
             // 
             this.SPOutputLabel.AutoSize = true;
-            this.SPOutputLabel.Location = new System.Drawing.Point(68, 66);
+            this.SPOutputLabel.Location = new System.Drawing.Point(60, 50);
             this.SPOutputLabel.Name = "SPOutputLabel";
-            this.SPOutputLabel.Size = new System.Drawing.Size(0, 20);
+            this.SPOutputLabel.Size = new System.Drawing.Size(0, 15);
             this.SPOutputLabel.TabIndex = 84;
             // 
             // HPOutputLabel
             // 
             this.HPOutputLabel.AutoSize = true;
-            this.HPOutputLabel.Location = new System.Drawing.Point(71, 33);
+            this.HPOutputLabel.Location = new System.Drawing.Point(62, 25);
             this.HPOutputLabel.Name = "HPOutputLabel";
-            this.HPOutputLabel.Size = new System.Drawing.Size(0, 20);
+            this.HPOutputLabel.Size = new System.Drawing.Size(0, 15);
             this.HPOutputLabel.TabIndex = 83;
             // 
             // SPShow
@@ -1245,9 +1355,9 @@ namespace チョコラン計算機_非公式_
             this.SPShow.AutoSize = true;
             this.SPShow.BackColor = System.Drawing.SystemColors.Info;
             this.SPShow.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SPShow.Location = new System.Drawing.Point(30, 66);
+            this.SPShow.Location = new System.Drawing.Point(26, 50);
             this.SPShow.Name = "SPShow";
-            this.SPShow.Size = new System.Drawing.Size(32, 20);
+            this.SPShow.Size = new System.Drawing.Size(26, 15);
             this.SPShow.TabIndex = 82;
             this.SPShow.Text = "SP :";
             // 
@@ -1256,17 +1366,18 @@ namespace チョコラン計算機_非公式_
             this.HPShow.AutoSize = true;
             this.HPShow.BackColor = System.Drawing.SystemColors.Info;
             this.HPShow.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.HPShow.Location = new System.Drawing.Point(26, 33);
+            this.HPShow.Location = new System.Drawing.Point(23, 25);
             this.HPShow.Name = "HPShow";
-            this.HPShow.Size = new System.Drawing.Size(35, 20);
+            this.HPShow.Size = new System.Drawing.Size(29, 15);
             this.HPShow.TabIndex = 81;
             this.HPShow.Text = "HP :";
             // 
             // inputLoad
             // 
-            this.inputLoad.Location = new System.Drawing.Point(18, 155);
+            this.inputLoad.Location = new System.Drawing.Point(119, 179);
+            this.inputLoad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.inputLoad.Name = "inputLoad";
-            this.inputLoad.Size = new System.Drawing.Size(121, 39);
+            this.inputLoad.Size = new System.Drawing.Size(182, 40);
             this.inputLoad.TabIndex = 76;
             this.inputLoad.TabStop = false;
             this.inputLoad.Text = "入力反映";
@@ -1276,82 +1387,82 @@ namespace チョコラン計算機_非公式_
             // mdfOutput
             // 
             this.mdfOutput.AutoSize = true;
-            this.mdfOutput.Location = new System.Drawing.Point(366, 132);
+            this.mdfOutput.Location = new System.Drawing.Point(320, 99);
             this.mdfOutput.Name = "mdfOutput";
-            this.mdfOutput.Size = new System.Drawing.Size(0, 20);
+            this.mdfOutput.Size = new System.Drawing.Size(0, 15);
             this.mdfOutput.TabIndex = 75;
             // 
             // matOutput
             // 
             this.matOutput.AutoSize = true;
-            this.matOutput.Location = new System.Drawing.Point(365, 100);
+            this.matOutput.Location = new System.Drawing.Point(319, 75);
             this.matOutput.Name = "matOutput";
-            this.matOutput.Size = new System.Drawing.Size(0, 20);
+            this.matOutput.Size = new System.Drawing.Size(0, 15);
             this.matOutput.TabIndex = 74;
             // 
             // defOutput
             // 
             this.defOutput.AutoSize = true;
-            this.defOutput.Location = new System.Drawing.Point(366, 66);
+            this.defOutput.Location = new System.Drawing.Point(320, 50);
             this.defOutput.Name = "defOutput";
-            this.defOutput.Size = new System.Drawing.Size(0, 20);
+            this.defOutput.Size = new System.Drawing.Size(0, 15);
             this.defOutput.TabIndex = 73;
             // 
             // atkOutput
             // 
             this.atkOutput.AutoSize = true;
-            this.atkOutput.Location = new System.Drawing.Point(366, 33);
+            this.atkOutput.Location = new System.Drawing.Point(320, 25);
             this.atkOutput.Name = "atkOutput";
-            this.atkOutput.Size = new System.Drawing.Size(0, 20);
+            this.atkOutput.Size = new System.Drawing.Size(0, 15);
             this.atkOutput.TabIndex = 72;
             // 
             // luckOutput
             // 
             this.luckOutput.AutoSize = true;
-            this.luckOutput.Location = new System.Drawing.Point(234, 165);
+            this.luckOutput.Location = new System.Drawing.Point(205, 124);
             this.luckOutput.Name = "luckOutput";
-            this.luckOutput.Size = new System.Drawing.Size(0, 20);
+            this.luckOutput.Size = new System.Drawing.Size(0, 15);
             this.luckOutput.TabIndex = 71;
             // 
             // spdOutput
             // 
             this.spdOutput.AutoSize = true;
-            this.spdOutput.Location = new System.Drawing.Point(234, 99);
+            this.spdOutput.Location = new System.Drawing.Point(205, 74);
             this.spdOutput.Name = "spdOutput";
-            this.spdOutput.Size = new System.Drawing.Size(0, 20);
+            this.spdOutput.Size = new System.Drawing.Size(0, 15);
             this.spdOutput.TabIndex = 70;
             // 
             // vitOutput
             // 
             this.vitOutput.AutoSize = true;
-            this.vitOutput.Location = new System.Drawing.Point(234, 132);
+            this.vitOutput.Location = new System.Drawing.Point(205, 99);
             this.vitOutput.Name = "vitOutput";
-            this.vitOutput.Size = new System.Drawing.Size(0, 20);
+            this.vitOutput.Size = new System.Drawing.Size(0, 15);
             this.vitOutput.TabIndex = 69;
             // 
             // intOutput
             // 
             this.intOutput.AutoSize = true;
-            this.intOutput.Location = new System.Drawing.Point(234, 66);
+            this.intOutput.Location = new System.Drawing.Point(205, 50);
             this.intOutput.Name = "intOutput";
-            this.intOutput.Size = new System.Drawing.Size(0, 20);
+            this.intOutput.Size = new System.Drawing.Size(0, 15);
             this.intOutput.TabIndex = 68;
             // 
             // powOutput
             // 
             this.powOutput.AutoSize = true;
-            this.powOutput.Location = new System.Drawing.Point(234, 33);
+            this.powOutput.Location = new System.Drawing.Point(205, 25);
             this.powOutput.Name = "powOutput";
-            this.powOutput.Size = new System.Drawing.Size(0, 20);
+            this.powOutput.Size = new System.Drawing.Size(0, 15);
             this.powOutput.TabIndex = 67;
             // 
             // matShow
             // 
             this.matShow.AutoSize = true;
             this.matShow.ForeColor = System.Drawing.Color.ForestGreen;
-            this.matShow.Location = new System.Drawing.Point(322, 99);
+            this.matShow.Location = new System.Drawing.Point(282, 74);
             this.matShow.Name = "matShow";
-            this.matShow.Size = new System.Drawing.Size(46, 20);
+            this.matShow.Size = new System.Drawing.Size(38, 15);
             this.matShow.TabIndex = 63;
             this.matShow.Text = "MAT :";
             // 
@@ -1360,9 +1471,9 @@ namespace チョコラン計算機_非公式_
             this.luckShow.AutoSize = true;
             this.luckShow.BackColor = System.Drawing.SystemColors.ControlDark;
             this.luckShow.ForeColor = System.Drawing.Color.Khaki;
-            this.luckShow.Location = new System.Drawing.Point(182, 165);
+            this.luckShow.Location = new System.Drawing.Point(159, 124);
             this.luckShow.Name = "luckShow";
-            this.luckShow.Size = new System.Drawing.Size(42, 20);
+            this.luckShow.Size = new System.Drawing.Size(34, 15);
             this.luckShow.TabIndex = 66;
             this.luckShow.Text = "LUK :";
             // 
@@ -1371,9 +1482,9 @@ namespace チョコラン計算機_非公式_
             this.atkShow.AutoSize = true;
             this.atkShow.BackColor = System.Drawing.SystemColors.Menu;
             this.atkShow.ForeColor = System.Drawing.Color.Red;
-            this.atkShow.Location = new System.Drawing.Point(327, 33);
+            this.atkShow.Location = new System.Drawing.Point(286, 25);
             this.atkShow.Name = "atkShow";
-            this.atkShow.Size = new System.Drawing.Size(42, 20);
+            this.atkShow.Size = new System.Drawing.Size(34, 15);
             this.atkShow.TabIndex = 62;
             this.atkShow.Text = "ATK :";
             // 
@@ -1382,9 +1493,9 @@ namespace チョコラン計算機_非公式_
             this.powShow.AutoSize = true;
             this.powShow.BackColor = System.Drawing.SystemColors.Control;
             this.powShow.ForeColor = System.Drawing.Color.Crimson;
-            this.powShow.Location = new System.Drawing.Point(176, 33);
+            this.powShow.Location = new System.Drawing.Point(154, 25);
             this.powShow.Name = "powShow";
-            this.powShow.Size = new System.Drawing.Size(49, 20);
+            this.powShow.Size = new System.Drawing.Size(40, 15);
             this.powShow.TabIndex = 62;
             this.powShow.Text = "POW :";
             // 
@@ -1392,9 +1503,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.spdShow.AutoSize = true;
             this.spdShow.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.spdShow.Location = new System.Drawing.Point(182, 99);
+            this.spdShow.Location = new System.Drawing.Point(159, 74);
             this.spdShow.Name = "spdShow";
-            this.spdShow.Size = new System.Drawing.Size(43, 20);
+            this.spdShow.Size = new System.Drawing.Size(34, 15);
             this.spdShow.TabIndex = 65;
             this.spdShow.Text = "SPD :";
             // 
@@ -1402,9 +1513,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.intShow.AutoSize = true;
             this.intShow.ForeColor = System.Drawing.Color.DarkCyan;
-            this.intShow.Location = new System.Drawing.Point(186, 66);
+            this.intShow.Location = new System.Drawing.Point(163, 50);
             this.intShow.Name = "intShow";
-            this.intShow.Size = new System.Drawing.Size(39, 20);
+            this.intShow.Size = new System.Drawing.Size(31, 15);
             this.intShow.TabIndex = 63;
             this.intShow.Text = "INT :";
             // 
@@ -1412,9 +1523,9 @@ namespace チョコラン計算機_非公式_
             // 
             this.vitShow.AutoSize = true;
             this.vitShow.ForeColor = System.Drawing.Color.DarkOrange;
-            this.vitShow.Location = new System.Drawing.Point(188, 132);
+            this.vitShow.Location = new System.Drawing.Point(164, 99);
             this.vitShow.Name = "vitShow";
-            this.vitShow.Size = new System.Drawing.Size(37, 20);
+            this.vitShow.Size = new System.Drawing.Size(29, 15);
             this.vitShow.TabIndex = 64;
             this.vitShow.Text = "VIT :";
             // 
@@ -1452,9 +1563,11 @@ namespace チョコラン計算機_非公式_
             this.manekinGroup.Controls.Add(this.manekinRegister1);
             this.manekinGroup.Controls.Add(this.manekinShow);
             this.manekinGroup.Controls.Add(this.manekinName1);
-            this.manekinGroup.Location = new System.Drawing.Point(1051, 12);
+            this.manekinGroup.Location = new System.Drawing.Point(920, 9);
+            this.manekinGroup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinGroup.Name = "manekinGroup";
-            this.manekinGroup.Size = new System.Drawing.Size(282, 571);
+            this.manekinGroup.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.manekinGroup.Size = new System.Drawing.Size(247, 526);
             this.manekinGroup.TabIndex = 66;
             this.manekinGroup.TabStop = false;
             this.manekinGroup.Text = "マネキン";
@@ -1463,16 +1576,17 @@ namespace チョコラン計算機_非公式_
             // manekinShowLabel
             // 
             this.manekinShowLabel.AutoSize = true;
-            this.manekinShowLabel.Location = new System.Drawing.Point(79, 381);
+            this.manekinShowLabel.Location = new System.Drawing.Point(69, 286);
             this.manekinShowLabel.Name = "manekinShowLabel";
-            this.manekinShowLabel.Size = new System.Drawing.Size(0, 20);
+            this.manekinShowLabel.Size = new System.Drawing.Size(0, 15);
             this.manekinShowLabel.TabIndex = 40;
             // 
             // manekinInput8
             // 
-            this.manekinInput8.Location = new System.Drawing.Point(197, 274);
+            this.manekinInput8.Location = new System.Drawing.Point(172, 206);
+            this.manekinInput8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput8.Name = "manekinInput8";
-            this.manekinInput8.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput8.Size = new System.Drawing.Size(68, 22);
             this.manekinInput8.TabIndex = 39;
             this.manekinInput8.TabStop = false;
             this.manekinInput8.Text = "読み込み";
@@ -1481,17 +1595,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName8
             // 
-            this.manekinName8.Location = new System.Drawing.Point(5, 275);
+            this.manekinName8.Location = new System.Drawing.Point(4, 206);
+            this.manekinName8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName8.Name = "manekinName8";
             this.manekinName8.PlaceholderText = "マネキン名入力";
-            this.manekinName8.Size = new System.Drawing.Size(102, 27);
+            this.manekinName8.Size = new System.Drawing.Size(90, 23);
             this.manekinName8.TabIndex = 8;
             // 
             // manekinInput7
             // 
-            this.manekinInput7.Location = new System.Drawing.Point(197, 239);
+            this.manekinInput7.Location = new System.Drawing.Point(172, 179);
+            this.manekinInput7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput7.Name = "manekinInput7";
-            this.manekinInput7.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput7.Size = new System.Drawing.Size(68, 22);
             this.manekinInput7.TabIndex = 37;
             this.manekinInput7.TabStop = false;
             this.manekinInput7.Text = "読み込み";
@@ -1500,9 +1616,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister7
             // 
-            this.manekinRegister7.Location = new System.Drawing.Point(113, 239);
+            this.manekinRegister7.Location = new System.Drawing.Point(99, 179);
+            this.manekinRegister7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister7.Name = "manekinRegister7";
-            this.manekinRegister7.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister7.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister7.TabIndex = 36;
             this.manekinRegister7.TabStop = false;
             this.manekinRegister7.Text = "登録";
@@ -1511,17 +1628,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName7
             // 
-            this.manekinName7.Location = new System.Drawing.Point(5, 240);
+            this.manekinName7.Location = new System.Drawing.Point(4, 180);
+            this.manekinName7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName7.Name = "manekinName7";
             this.manekinName7.PlaceholderText = "マネキン名入力";
-            this.manekinName7.Size = new System.Drawing.Size(102, 27);
+            this.manekinName7.Size = new System.Drawing.Size(90, 23);
             this.manekinName7.TabIndex = 7;
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(197, 274);
+            this.button23.Location = new System.Drawing.Point(172, 206);
+            this.button23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(78, 29);
+            this.button23.Size = new System.Drawing.Size(68, 22);
             this.button23.TabIndex = 34;
             this.button23.TabStop = false;
             this.button23.Text = "読み込み";
@@ -1529,9 +1648,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister8
             // 
-            this.manekinRegister8.Location = new System.Drawing.Point(113, 274);
+            this.manekinRegister8.Location = new System.Drawing.Point(99, 206);
+            this.manekinRegister8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister8.Name = "manekinRegister8";
-            this.manekinRegister8.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister8.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister8.TabIndex = 33;
             this.manekinRegister8.TabStop = false;
             this.manekinRegister8.Text = "登録";
@@ -1540,17 +1660,19 @@ namespace チョコラン計算機_非公式_
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(5, 275);
+            this.textBox14.Location = new System.Drawing.Point(4, 206);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox14.Name = "textBox14";
             this.textBox14.PlaceholderText = "マネキン名入力";
-            this.textBox14.Size = new System.Drawing.Size(102, 27);
+            this.textBox14.Size = new System.Drawing.Size(90, 23);
             this.textBox14.TabIndex = 32;
             // 
             // manekinInput6
             // 
-            this.manekinInput6.Location = new System.Drawing.Point(197, 204);
+            this.manekinInput6.Location = new System.Drawing.Point(172, 153);
+            this.manekinInput6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput6.Name = "manekinInput6";
-            this.manekinInput6.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput6.Size = new System.Drawing.Size(68, 22);
             this.manekinInput6.TabIndex = 31;
             this.manekinInput6.TabStop = false;
             this.manekinInput6.Text = "読み込み";
@@ -1559,17 +1681,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName6
             // 
-            this.manekinName6.Location = new System.Drawing.Point(5, 205);
+            this.manekinName6.Location = new System.Drawing.Point(4, 154);
+            this.manekinName6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName6.Name = "manekinName6";
             this.manekinName6.PlaceholderText = "マネキン名入力";
-            this.manekinName6.Size = new System.Drawing.Size(102, 27);
+            this.manekinName6.Size = new System.Drawing.Size(90, 23);
             this.manekinName6.TabIndex = 6;
             // 
             // manekinInput5
             // 
-            this.manekinInput5.Location = new System.Drawing.Point(197, 169);
+            this.manekinInput5.Location = new System.Drawing.Point(172, 127);
+            this.manekinInput5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput5.Name = "manekinInput5";
-            this.manekinInput5.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput5.Size = new System.Drawing.Size(68, 22);
             this.manekinInput5.TabIndex = 29;
             this.manekinInput5.TabStop = false;
             this.manekinInput5.Text = "読み込み";
@@ -1578,9 +1702,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister5
             // 
-            this.manekinRegister5.Location = new System.Drawing.Point(113, 169);
+            this.manekinRegister5.Location = new System.Drawing.Point(99, 127);
+            this.manekinRegister5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister5.Name = "manekinRegister5";
-            this.manekinRegister5.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister5.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister5.TabIndex = 28;
             this.manekinRegister5.TabStop = false;
             this.manekinRegister5.Text = "登録";
@@ -1589,17 +1714,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName5
             // 
-            this.manekinName5.Location = new System.Drawing.Point(5, 170);
+            this.manekinName5.Location = new System.Drawing.Point(4, 128);
+            this.manekinName5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName5.Name = "manekinName5";
             this.manekinName5.PlaceholderText = "マネキン名入力";
-            this.manekinName5.Size = new System.Drawing.Size(102, 27);
+            this.manekinName5.Size = new System.Drawing.Size(90, 23);
             this.manekinName5.TabIndex = 5;
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(197, 204);
+            this.button13.Location = new System.Drawing.Point(172, 153);
+            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(78, 29);
+            this.button13.Size = new System.Drawing.Size(68, 22);
             this.button13.TabIndex = 26;
             this.button13.TabStop = false;
             this.button13.Text = "読み込み";
@@ -1607,9 +1734,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister6
             // 
-            this.manekinRegister6.Location = new System.Drawing.Point(113, 204);
+            this.manekinRegister6.Location = new System.Drawing.Point(99, 153);
+            this.manekinRegister6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister6.Name = "manekinRegister6";
-            this.manekinRegister6.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister6.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister6.TabIndex = 25;
             this.manekinRegister6.TabStop = false;
             this.manekinRegister6.Text = "登録";
@@ -1618,17 +1746,19 @@ namespace チョコラン計算機_非公式_
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(5, 205);
+            this.textBox8.Location = new System.Drawing.Point(4, 154);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox8.Name = "textBox8";
             this.textBox8.PlaceholderText = "マネキン名入力";
-            this.textBox8.Size = new System.Drawing.Size(102, 27);
+            this.textBox8.Size = new System.Drawing.Size(90, 23);
             this.textBox8.TabIndex = 24;
             // 
             // manekinInput4
             // 
-            this.manekinInput4.Location = new System.Drawing.Point(197, 134);
+            this.manekinInput4.Location = new System.Drawing.Point(172, 100);
+            this.manekinInput4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput4.Name = "manekinInput4";
-            this.manekinInput4.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput4.Size = new System.Drawing.Size(68, 22);
             this.manekinInput4.TabIndex = 15;
             this.manekinInput4.TabStop = false;
             this.manekinInput4.Text = "読み込み";
@@ -1637,17 +1767,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName4
             // 
-            this.manekinName4.Location = new System.Drawing.Point(5, 135);
+            this.manekinName4.Location = new System.Drawing.Point(4, 101);
+            this.manekinName4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName4.Name = "manekinName4";
             this.manekinName4.PlaceholderText = "マネキン名入力";
-            this.manekinName4.Size = new System.Drawing.Size(102, 27);
+            this.manekinName4.Size = new System.Drawing.Size(90, 23);
             this.manekinName4.TabIndex = 4;
             // 
             // manekinInput3
             // 
-            this.manekinInput3.Location = new System.Drawing.Point(197, 99);
+            this.manekinInput3.Location = new System.Drawing.Point(172, 74);
+            this.manekinInput3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput3.Name = "manekinInput3";
-            this.manekinInput3.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput3.Size = new System.Drawing.Size(68, 22);
             this.manekinInput3.TabIndex = 12;
             this.manekinInput3.TabStop = false;
             this.manekinInput3.Text = "読み込み";
@@ -1656,9 +1788,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister3
             // 
-            this.manekinRegister3.Location = new System.Drawing.Point(113, 99);
+            this.manekinRegister3.Location = new System.Drawing.Point(99, 74);
+            this.manekinRegister3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister3.Name = "manekinRegister3";
-            this.manekinRegister3.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister3.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister3.TabIndex = 11;
             this.manekinRegister3.TabStop = false;
             this.manekinRegister3.Text = "登録";
@@ -1667,17 +1800,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName3
             // 
-            this.manekinName3.Location = new System.Drawing.Point(5, 100);
+            this.manekinName3.Location = new System.Drawing.Point(4, 75);
+            this.manekinName3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName3.Name = "manekinName3";
             this.manekinName3.PlaceholderText = "マネキン名入力";
-            this.manekinName3.Size = new System.Drawing.Size(102, 27);
+            this.manekinName3.Size = new System.Drawing.Size(90, 23);
             this.manekinName3.TabIndex = 3;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(197, 134);
+            this.button5.Location = new System.Drawing.Point(172, 100);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(78, 29);
+            this.button5.Size = new System.Drawing.Size(68, 22);
             this.button5.TabIndex = 9;
             this.button5.TabStop = false;
             this.button5.Text = "読み込み";
@@ -1685,9 +1820,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister4
             // 
-            this.manekinRegister4.Location = new System.Drawing.Point(113, 134);
+            this.manekinRegister4.Location = new System.Drawing.Point(99, 100);
+            this.manekinRegister4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister4.Name = "manekinRegister4";
-            this.manekinRegister4.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister4.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister4.TabIndex = 8;
             this.manekinRegister4.TabStop = false;
             this.manekinRegister4.Text = "登録";
@@ -1696,17 +1832,19 @@ namespace チョコラン計算機_非公式_
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(5, 135);
+            this.textBox3.Location = new System.Drawing.Point(4, 101);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
             this.textBox3.PlaceholderText = "マネキン名入力";
-            this.textBox3.Size = new System.Drawing.Size(102, 27);
+            this.textBox3.Size = new System.Drawing.Size(90, 23);
             this.textBox3.TabIndex = 7;
             // 
             // manekinInput2
             // 
-            this.manekinInput2.Location = new System.Drawing.Point(197, 64);
+            this.manekinInput2.Location = new System.Drawing.Point(172, 48);
+            this.manekinInput2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput2.Name = "manekinInput2";
-            this.manekinInput2.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput2.Size = new System.Drawing.Size(68, 22);
             this.manekinInput2.TabIndex = 6;
             this.manekinInput2.TabStop = false;
             this.manekinInput2.Text = "読み込み";
@@ -1715,9 +1853,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister2
             // 
-            this.manekinRegister2.Location = new System.Drawing.Point(113, 64);
+            this.manekinRegister2.Location = new System.Drawing.Point(99, 48);
+            this.manekinRegister2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister2.Name = "manekinRegister2";
-            this.manekinRegister2.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister2.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister2.TabIndex = 5;
             this.manekinRegister2.TabStop = false;
             this.manekinRegister2.Text = "登録";
@@ -1726,17 +1865,19 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName2
             // 
-            this.manekinName2.Location = new System.Drawing.Point(5, 65);
+            this.manekinName2.Location = new System.Drawing.Point(4, 49);
+            this.manekinName2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName2.Name = "manekinName2";
             this.manekinName2.PlaceholderText = "マネキン名入力";
-            this.manekinName2.Size = new System.Drawing.Size(102, 27);
+            this.manekinName2.Size = new System.Drawing.Size(90, 23);
             this.manekinName2.TabIndex = 2;
             // 
             // manekinInput1
             // 
-            this.manekinInput1.Location = new System.Drawing.Point(197, 29);
+            this.manekinInput1.Location = new System.Drawing.Point(172, 22);
+            this.manekinInput1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinInput1.Name = "manekinInput1";
-            this.manekinInput1.Size = new System.Drawing.Size(78, 29);
+            this.manekinInput1.Size = new System.Drawing.Size(68, 22);
             this.manekinInput1.TabIndex = 3;
             this.manekinInput1.TabStop = false;
             this.manekinInput1.Text = "読み込み";
@@ -1745,9 +1886,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinRegister1
             // 
-            this.manekinRegister1.Location = new System.Drawing.Point(113, 29);
+            this.manekinRegister1.Location = new System.Drawing.Point(99, 22);
+            this.manekinRegister1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinRegister1.Name = "manekinRegister1";
-            this.manekinRegister1.Size = new System.Drawing.Size(78, 29);
+            this.manekinRegister1.Size = new System.Drawing.Size(68, 22);
             this.manekinRegister1.TabIndex = 2;
             this.manekinRegister1.TabStop = false;
             this.manekinRegister1.Text = "登録";
@@ -1756,9 +1898,10 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinShow
             // 
-            this.manekinShow.Location = new System.Drawing.Point(81, 317);
+            this.manekinShow.Location = new System.Drawing.Point(71, 238);
+            this.manekinShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinShow.Name = "manekinShow";
-            this.manekinShow.Size = new System.Drawing.Size(134, 44);
+            this.manekinShow.Size = new System.Drawing.Size(117, 33);
             this.manekinShow.TabIndex = 1;
             this.manekinShow.TabStop = false;
             this.manekinShow.Text = "登録マネキン表示";
@@ -1767,10 +1910,11 @@ namespace チョコラン計算機_非公式_
             // 
             // manekinName1
             // 
-            this.manekinName1.Location = new System.Drawing.Point(5, 30);
+            this.manekinName1.Location = new System.Drawing.Point(4, 22);
+            this.manekinName1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.manekinName1.Name = "manekinName1";
             this.manekinName1.PlaceholderText = "マネキン名入力";
-            this.manekinName1.Size = new System.Drawing.Size(102, 27);
+            this.manekinName1.Size = new System.Drawing.Size(90, 23);
             this.manekinName1.TabIndex = 1;
             // 
             // button15
@@ -1788,7 +1932,7 @@ namespace チョコラン計算機_非公式_
             this.textBox9.Location = new System.Drawing.Point(6, 285);
             this.textBox9.Name = "textBox9";
             this.textBox9.PlaceholderText = "マネキン名入力";
-            this.textBox9.Size = new System.Drawing.Size(102, 27);
+            this.textBox9.Size = new System.Drawing.Size(102, 23);
             this.textBox9.TabIndex = 30;
             // 
             // button16
@@ -1816,7 +1960,7 @@ namespace チョコラン計算機_非公式_
             this.textBox10.Location = new System.Drawing.Point(6, 250);
             this.textBox10.Name = "textBox10";
             this.textBox10.PlaceholderText = "マネキン名入力";
-            this.textBox10.Size = new System.Drawing.Size(102, 27);
+            this.textBox10.Size = new System.Drawing.Size(102, 23);
             this.textBox10.TabIndex = 27;
             // 
             // button18
@@ -1844,20 +1988,21 @@ namespace チョコラン計算機_非公式_
             this.textBox11.Location = new System.Drawing.Point(6, 285);
             this.textBox11.Name = "textBox11";
             this.textBox11.PlaceholderText = "マネキン名入力";
-            this.textBox11.Size = new System.Drawing.Size(102, 27);
+            this.textBox11.Size = new System.Drawing.Size(102, 23);
             this.textBox11.TabIndex = 24;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 593);
+            this.ClientSize = new System.Drawing.Size(1176, 546);
             this.Controls.Add(this.manekinGroup);
             this.Controls.Add(this.showStatus);
             this.Controls.Add(this.skillGroup);
             this.Controls.Add(this.dpGroup);
             this.Controls.Add(this.statusInput);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "チョコラン計算機(非公式)";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -2024,6 +2169,9 @@ namespace チョコラン計算機_非公式_
         private System.Windows.Forms.Label SPShow;
         private System.Windows.Forms.ComboBox SPMakiBox;
         private System.Windows.Forms.ComboBox HPMakiBox;
+        private System.Windows.Forms.Button beneWing;
+        private System.Windows.Forms.Button fairyMag;
+        private System.Windows.Forms.Button fairyPhy;
     }
 }
 
