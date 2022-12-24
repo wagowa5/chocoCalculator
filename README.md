@@ -1,6 +1,8 @@
 # chocoCalculator
 チョコットランドのリキッド計算機
 
+# update
+新しいバージョンをダウンロードした場合は、旧バージョンの`manekins`フォルダをコピーして使用してください
 
 # Installation
 [チョコラン計算機をダウンロード](https://github.com/wagowa5/chocoCalculator/raw/main/%E3%83%81%E3%83%A7%E3%82%B3%E3%83%A9%E3%83%B3%E8%A8%88%E7%AE%97%E6%A9%9Fv3.2.zip)
