@@ -1958,7 +1958,7 @@ namespace チョコラン計算機_非公式_
         {
             if (manekinName2.Text != null && manekinName2.Text != "")
             {
-                var filename = @"manekins/" + manekinName1.Text + ".txt";
+                var filename = @"manekins/" + manekinName2.Text + ".txt";
                 string[] files = Directory.GetFiles(@"manekins/", "*");
                 Boolean fileOpenCheck = false;
                 foreach (var item in files)
