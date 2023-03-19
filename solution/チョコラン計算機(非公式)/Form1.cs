@@ -1455,41 +1455,13 @@ namespace チョコラン計算機_非公式_
                 textBox2inputStatus();
                 calcStatus();
                 HPStructure.eruUp = HPStructure.totalStatus * 4;
-                if (HPStructure.eruUp == 0)
-                {
-                    HPStructure.eruUp = 1;
-                }
                 SPStructure.eruUp = SPStructure.totalStatus * 4;
-                if (SPStructure.eruUp == 0)
-                {
-                    SPStructure.eruUp = 1;
-                }
 
                 powStructure.eruUp = (int)(powStructure.totalStatus * 0.2);
-                if (powStructure.eruUp == 0)
-                {
-                    powStructure.eruUp = 1;
-                }
                 intStructure.eruUp = (int)(intStructure.totalStatus * 0.2);
-                if (intStructure.eruUp == 0)
-                {
-                    intStructure.eruUp = 1;
-                }
                 vitStructure.eruUp = (int)(vitStructure.totalStatus * 0.2);
-                if (vitStructure.eruUp == 0)
-                {
-                    vitStructure.eruUp = 1;
-                }
                 spdStructure.eruUp = (int)(spdStructure.totalStatus * 0.2);
-                if (spdStructure.eruUp == 0)
-                {
-                    spdStructure.eruUp = 1;
-                }
                 luckStructure.eruUp = (int)(luckStructure.totalStatus * 0.2);
-                if (luckStructure.eruUp == 0)
-                {
-                    luckStructure.eruUp = 1;
-                }
 
                 atkStructure.eruUp = (int)((atkStructure.inputStatus - powStructure.inputStatus + atkStructure.makiStatus + (powStructure.totalStatus - powStructure.inputStatus + powStructure.eruUp) * 2) * 0.2);
                 matStructure.eruUp = (int)((matStructure.inputStatus + matStructure.makiStatus + (intStructure.totalStatus - intStructure.inputStatus + intStructure.eruUp) * 2) * 0.2);
@@ -1532,10 +1504,6 @@ namespace チョコラン計算機_非公式_
                 vitStructure.eruUp = 0;
                 spdStructure.eruUp = 0;
                 luckStructure.eruUp = (int)(luckStructure.totalStatus * 0.3);
-                if (luckStructure.eruUp == 0)
-                {
-                    luckStructure.eruUp = 1;
-                }
 
                 atkStructure.eruUp = 0;
                 matStructure.eruUp = 0;
@@ -1594,10 +1562,6 @@ namespace チョコラン計算機_非公式_
                 SPStructure.eruUp = 0;
 
                 powStructure.eruUp = (int)(powStructure.totalStatus * 0.3);
-                if (powStructure.eruUp == 0)
-                {
-                    powStructure.eruUp = 1;
-                }
                 intStructure.eruUp = 0;
                 vitStructure.eruUp = 0;
                 spdStructure.eruUp = 0;
@@ -1630,10 +1594,6 @@ namespace チョコラン計算機_非公式_
 
                 powStructure.eruUp = 0;
                 intStructure.eruUp = (int)(intStructure.totalStatus * 0.3);
-                if (intStructure.eruUp == 0)
-                {
-                    intStructure.eruUp = 1;
-                }
                 vitStructure.eruUp = 0;
                 spdStructure.eruUp = 0;
                 luckStructure.eruUp = 0;
