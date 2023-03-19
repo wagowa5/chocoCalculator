@@ -1565,16 +1565,12 @@ namespace チョコラン計算機_非公式_
                 powStructure.eruUp = 0;
                 intStructure.eruUp = 0;
                 vitStructure.eruUp = (int)(vitStructure.totalStatus * 0.3);
-                if (vitStructure.eruUp == 0)
-                {
-                    vitStructure.eruUp = 1;
-                }
                 spdStructure.eruUp = 0;
                 luckStructure.eruUp = 0;
 
                 atkStructure.eruUp = 0;
                 matStructure.eruUp = 0;
-                defStructure.eruUp = (int)((defStructure.inputStatus + defStructure.makiStatus + (vitStructure.totalStatus - vitStructure.inputStatus + vitStructure.eruUp) * 2) * 0.3);
+                defStructure.eruUp = 0;
                 mdfStructure.eruUp = 0;
 
                 calcStatus();
